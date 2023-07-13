@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+/* font-family: 'Chela One', cursive; */
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #141212;
+}
+
+
+.header {
+  background-image: url('background.jpeg');
+  width: 100vw;
+  height: 20vh;
+  font-size: 13vw;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Chela One', cursive;
+  display: flex;
+  
+}
+ 
+ 
+.contentvideo {
+  height: 100vh;
+}
+
+.frame {
+  padding: 5vw;
+  width: 90vw;
+  height: 50.625vw;
+}
+
+.backbench {
+  background: #becae8;
+  width: 100vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+}
+
+.backa {
+  text-decoration-line: none;
+  color: red;
+  padding-left: 1vw;
+}
