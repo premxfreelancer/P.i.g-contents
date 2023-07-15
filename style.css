@@ -27,13 +27,16 @@ html {
  
  
 .contentvideo {
-  height: 100vh;
+  height: auto;
 }
 
 .frame {
+  
   padding: 5vw;
   width: 90vw;
   height: 50.625vw;
+
+position: relative;
 }
 
 .backbench {
