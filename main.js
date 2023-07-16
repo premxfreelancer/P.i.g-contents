@@ -7,3 +7,9 @@ window.addEventListener('load', function() {
   var content = document.querySelector('.content');
   content.style.display = 'block';
 });
+
+window.addEventListener('beforeunload', function(event) {
+      event.preventDefault();
+      event.returnValue = ''; // This line is necessary for some older browsers
+      return 'Are you sure you want to leave this page?'; // Custom warning message
+    });
